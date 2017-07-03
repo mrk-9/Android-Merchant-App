@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blockchain Merchant</string>
+    <string name="action_settings">Paramétrage</string>
+    <string name="action_settings_title">Paramétrage commerçant</string>
+    <string name="action_about">A propos de Blockchain Merchant</string>
+    <string name="action_newpin">Changer code PIN</string>
+    <string name="action_pincode">Code PIN</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="support">Support</string>
+    <string name="rate_us">Evaluez-nous</string>
+    <string name="email_chooser">Envoyer e-mail...</string>
+    <string name="about">Blockchain Merchant %1$s\n©%2$s Blockchain.info</string>
+    <string name="wallet_download">Gratuit: Votre portfeuille Bitcoin</string>
+    <string name="tab_settings">Paramètres</string>
+    <string name="tab_payment">Paiement</string>
+    <string name="tab_history">Transactions</string>
+    
+    <string name="receive_coins_fragment_name">Non</string>
+    <string name="receive_coins_fragment_merchant_xpub_hint">Adresse portefeuille</string>
+    <string name="receive_coins_fragment_receiving_address_error">Adresse incorrecte</string>
+    <string name="receive_coins_fragment_default_currency_hint">Devise</string>
+    <string name="receive_coins_fragment_email_address_hint">Adresse e-mail</string>
+    <string name="receive_coins_activity_title">Envoyer Bitcoins</string>
+    <string name="receive_coins_install_qr_scanner_msg">Please install ZXing QR-code scanner or Goggles!</string>
+    <string name="receive_coins_uri_parse_error_title">Bitcoin URI incorrect</string>
+    <string name="receive_coins_parse_address_error_msg">Got invalid bitcoin address!\n(Mixing up Testnet/Prodnet?)</string>
+    <string name="receive_coins_fragment_push_notifications">Notifications</string>
+    <string name="receive_coins_fragment_email_receipts">Récipissés e-mail</string>
+    <string name="receive_coins_fragment_other_currency">Autre code devise (3 caractères, ex.: MXP)</string>
+    <string name="use_btc">Entrez le prix en Bitcoins (BTC)</string>
+    <string name="payment_note">Descriptif (facultatif)...</string>
+    <string name="payment_clear">EFFACER</string>
+    <string name="payment_new">Démarrer</string>
+    <string name="payment_ready">Confirmer paiement</string>
+    <string name="payment_executed">Paiement effectuer</string>
+    <string name="no_data">Pas de données</string>
+    <string name="content_description">Merci. Dans l\'attente de vous revoir...</string>
+    <string name="delete_rec">Vous êtes certain de vouloir effacer ce paiement ?</string>
+    <string name="invalid_btc_address">Veuillez fournir une adresse portefeuille valide.</string>
+    <string name="pin_code_prompt1">Créer un code PIN à 4 chiffres</string>
+    <string name="pin_code_prompt2">Répéter code PIN</string>
+    <string name="pin_code_prompt3">Entrer votre code PIN à 4 chiffres</string>
+    <string name="marquee_start">Paiement reçu de la part de</string>
+    <string name="notification_end">BTC reçu</string>
+    <string name="generating_qr">En train de générer code QR...</string>
+    <string name="no_exchange_rate">Blockchain Merchant n\'a pas encore déterminer le taux de change pour votre devise. Veuillez vérifier votre connexion Internet avant de ressayer.</string>
+    
+    <string name="pin_code_create_error">Entrer 2 codes PIN identiques</string>
+    <string name="pin_code_enter_error">code PIN incorrect</string>
+    <string name="camera_unavailable">Caméra pas disponible</string>
+    
+    <string name="toggle_on">Oui</string>
+    <string name="toggle_off">Non</string>
+
+    <string name="prompt_yes">Oui</string>
+    <string name="prompt_no">Non</string>
+    <string name="prompt_ok">OK</string>
+    <string name="prompt_ko">ANNULER</string>
+    <string name="prompt_save">SAUVEGARDER</string>
+    
+    <string name="pull_to_refresh_pull_label">Tirez vers le bas pour actualiser...</string>
+    <string name="pull_to_refresh_release_label">Relâchez pour actualiser...</string>
+    <string name="pull_to_refresh_refreshing_label">Chargement...</string>
+    <string name="pull_to_refresh_tap_label">Tapez pour actualiser...</string>
+
+<!-- <string name="bitcoin_currency_symbol">&#xf15a;</string> -->
+    <string name="bitcoin_currency_symbol">&#x0243;</string>
+    
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <!--hide profile until spec updated-->
+        <item
+            android:id="@+id/action_profile"
+            android:visible="false"
+            android:icon="@drawable/ic_person_white_24dp"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="Settings"/>
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <!--hide profile until spec updated-->
+        <item
+            android:id="@+id/action_help"
+            android:visible="false"
+            android:icon="@drawable/ic_help_white_24dp"
+            android:title="Help"/>
+        <item
+            android:id="@+id/action_about"
+            android:icon="@drawable/ic_blockchainb"
+            android:title="About"/>
+    </group>
+
+</menu>

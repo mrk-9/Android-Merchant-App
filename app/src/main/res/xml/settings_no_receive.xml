@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:summary="@string/options_new_payment_address_text"
+        />
+
+    <Preference
+        android:summary="@string/options_new_payment_address_text2"
+        android:key="wallet"
+        />
+
+    <Preference
+        android:title="@string/options_new_payment_address"
+        android:key="address"
+        />
+
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <include layout="@layout/include_container_shadow_bottom"/>
+
+    <LinearLayout
+        android:id="@+id/amount_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/blockchain_off_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_fiat_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="42sp"
+            android:textColor="@color/textColorPrimary"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textSize="16sp"
+            android:textColor="@color/textColorPrimary"
+            android:alpha="0.5"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/include_container_shadow_top"/>
+
+    <include layout="@layout/include_numeric_keypad"/>
+
+    <include layout="@layout/include_container_shadow_top_green"/>
+
+    <ImageView
+        android:id="@+id/iv_charge"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:src="@drawable/ic_done_white_48dp"
+        android:scaleType="center"
+        android:background="@color/blockchain_green"/>
+
+</LinearLayout>

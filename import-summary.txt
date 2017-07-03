@@ -1,0 +1,113 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gradle/
+* .gradle/2.8/
+* .gradle/2.8/taskArtifacts/
+* .gradle/2.8/taskArtifacts/cache.properties
+* .gradle/2.8/taskArtifacts/cache.properties.lock
+* .gradle/2.8/taskArtifacts/fileHashes.bin
+* .gradle/2.8/taskArtifacts/fileSnapshots.bin
+* .gradle/2.8/taskArtifacts/outputFileStates.bin
+* .gradle/2.8/taskArtifacts/taskArtifacts.bin
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/gradle.xml
+* .idea/libraries/
+* .idea/libraries/MyWalletHD.xml
+* .idea/libraries/android_async_http_1_4_4.xml
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/bitcoinj_core_0_13_3.xml
+* .idea/libraries/commons_io_2_4.xml
+* .idea/libraries/core.xml
+* .idea/libraries/guava_16_0_1.xml
+* .idea/libraries/java_api_0_90.xml
+* .idea/libraries/slf4j_api_1_6_2.xml
+* .idea/libraries/zbar.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/runConfigurations.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* COPYING
+* README.md
+* ic_launcher-web.png
+* pom.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+guava-16.0.1.jar => com.google.guava:guava:16.0.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+guava-16.0.1.jar => version 16.0.1 in com.google.guava:guava:16.0.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/android-async-http-1.4.4.jar => app/libs/android-async-http-1.4.4.jar
+* libs/armeabi-v7a/libiconv.so => app/src/main/jniLibs/armeabi-v7a/libiconv.so
+* libs/armeabi-v7a/libzbarjni.so => app/src/main/jniLibs/armeabi-v7a/libzbarjni.so
+* libs/armeabi/libiconv.so => app/src/main/jniLibs/armeabi/libiconv.so
+* libs/armeabi/libzbarjni.so => app/src/main/jniLibs/armeabi/libzbarjni.so
+* libs/commons-io-2.4.jar => app/libs/commons-io-2.4.jar
+* libs/core.jar => app/libs/core.jar
+* libs/java-api-0.90.jar => app/libs/java-api-0.90.jar
+* libs/x86/libiconv.so => app/src/main/jniLibs/x86/libiconv.so
+* libs/x86/libzbarjni.so => app/src/main/jniLibs/x86/libzbarjni.so
+* libs/zbar.jar => app/libs/zbar.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/info/.DS_Store => app/src/main/resources/info/.DS_Store
+* src/info/blockchain/.DS_Store => app/src/main/resources/info/blockchain/.DS_Store
+* src/info/blockchain/merchant/.DS_Store => app/src/main/resources/info/blockchain/merchant/.DS_Store
+* src/info/blockchain/merchant/tabsswipe/.DS_Store => app/src/main/resources/info/blockchain/merchant/tabsswipe/.DS_Store
+* src/info/blockchain/util/.DS_Store => app/src/main/resources/info/blockchain/util/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

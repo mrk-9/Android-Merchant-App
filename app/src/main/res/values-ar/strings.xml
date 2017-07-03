@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Blockchain Merchant</string>
+<string name="action_settings">الاعدادات</string>
+<string name="action_settings_title">اعدادات التاجر</string>
+<string name="action_about">عن Blockchain Merchant</string>
+<string name="action_newpin">تغيير رمز PIN</string>
+<string name="action_pincode">رمز PIN</string>
+<string name="hello_world">Hello world!</string>
+<string name="support">الدعم فني</string>
+<string name="rate_us">قيمنا</string>
+<string name="email_chooser">إرسال بريد إلكتروني...</string>
+<string name="about">Blockchain Merchant %1$s\n©%2$s Blockchain.info</string>
+<string name="wallet_download">احصل علي محفظة بيتكوين مجانا</string>
+<string name="tab_settings">الاعدادات</string>
+<string name="tab_payment">الدفعيه</string>
+<string name="tab_history">الإجراءات</string>
+<string name="receive_coins_fragment_name">الاسم</string>
+<string name="receive_coins_fragment_merchant_xpub_hint">عنوان المحفظة</string>
+<string name="receive_coins_fragment_receiving_address_error">عنوان غير صالح</string>
+<string name="receive_coins_fragment_default_currency_hint">العملة التلقائية</string>
+<string name="receive_coins_fragment_email_address_hint">عُنوان البريد الإلكتروني</string>
+<string name="receive_coins_activity_title">ارسال بيتكوين</string>
+<string name="receive_coins_install_qr_scanner_msg">الرجاء تنصيب ZXing قارئ رموز QR او Goggles!</string>
+<string name="receive_coins_uri_parse_error_title">بيتكوين URI غير صالح</string>
+<string name="receive_coins_parse_address_error_msg">
+لديك عنوان بيتكون غير صالح!\n (يوجد خلط بين الشبكة التجريبية/شبكة البث)
+</string>
+<string name="receive_coins_fragment_push_notifications">جلب التنبيهات</string>
+<string name="receive_coins_fragment_email_receipts">الإشعارات بالبريد الإلكتروني</string>
+<string name="use_btc">ادخال السعر بالبيتكوين (BTC)</string>
+<string name="payment_note">الوصف (اختياري)...</string>
+<string name="payment_clear">إفراغ</string>
+<string name="payment_new">إبدأ</string>
+<string name="payment_ready">تأكيد الدفع</string>
+<string name="payment_executed">نم تنفيذ الدفع</string>
+<string name="no_data">لاتوجد بيانات</string>
+<string name="content_description">شكرا لك. نتمني رؤيتك مجددا في القريب العاجل.</string>
+<string name="delete_rec">هل انت متأكدُ أنك تريد مسح إدخال الدفع هذا ؟</string>
+<string name="invalid_btc_address">الرجاء ادخال عنوان محفظة بيتكوين صالح.</string>
+<string name="pin_code_prompt1">أنشئ رمز PIN مكون من 4 أرقام</string>
+<string name="pin_code_prompt2">أعد ادخال رمز PIN</string>
+<string name="pin_code_prompt3">أدخل رمزك PIN المكون من 4 أرقام</string>
+<string name="marquee_start">الدفعيه مستلمه من</string>
+<string name="notification_end">تم إستلام BTC</string>
+<string name="generating_qr">تكوين رمز QR...</string>
+<string name="no_exchange_rate">
+Blockchain Merchant لم يُحدد سِعر الصرف للعمله التي اخترتها. الرجاء مراجعة اتصالك بالانترنت والمحاولة مرة اخري.
+</string>
+<string name="pin_code_create_error">
+أدخل رمزين PIN المكون من 4 أرقام بحيث يكونان متطابقان
+</string>
+<string name="pin_code_enter_error">رمز الPIN غير صحيح</string>
+<string name="camera_unavailable">الكاميرا غير متوفرة</string>
+<string name="toggle_on">تشغيل</string>
+<string name="toggle_off">تعطيل</string>
+<string name="prompt_yes">نعم</string>
+<string name="prompt_no">لا</string>
+<string name="prompt_ok">حسناً</string>
+<string name="prompt_ko">إلغاء</string>
+<string name="prompt_save">حفظ</string>
+<string name="pull_to_refresh_pull_label">اسحب للانعاش...</string>
+<string name="pull_to_refresh_release_label">اترك للانعاش...</string>
+<string name="pull_to_refresh_refreshing_label">جاري التحميل...</string>
+<string name="pull_to_refresh_tap_label">إنقُر للانعاش...</string>
+<string name="bitcoin_currency_symbol">&#x0243;</string>
+</resources>

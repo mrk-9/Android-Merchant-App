@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="@string/options_receive"
+        android:summary="@string/off"
+        android:key="receiveAPI"
+        />
+    <Preference
+        android:title="@string/options_merchant_name"
+        android:key="name"
+        />
+    <Preference
+        android:title="@string/options_local_currency"
+        android:key="fiat"
+        />
+    <Preference
+        android:title="@string/options_pin_code"
+        android:key="pin"
+        />
+
+</PreferenceScreen>

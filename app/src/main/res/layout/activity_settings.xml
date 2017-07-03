@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/blockchain_pearl_white"
+              android:minWidth="420dp"
+              android:orientation="vertical"
+    >
+
+    <include layout="@layout/toolbar"/>
+
+    <include layout="@layout/include_container_shadow_bottom"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+        <EditText
+            android:id="@+id/et_merchant_receiver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/receive_coins_fragment_merchant_xpub_hint"
+            android:imeOptions="actionNext"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/blockchain_grey"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            />
+
+        <ImageView
+            android:id="@+id/iv_QR"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="8dp"
+            android:tint="@android:color/black"
+            android:src="@drawable/icon_qrcode"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+        <EditText
+            android:id="@+id/et_merchant_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="@string/receive_coins_fragment_name"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text_default_material_light"
+            android:textSize="16sp"
+            android:maxLength="60"
+            />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/receive_coins_default_currency"
+        layout="@layout/include_spinner_compat"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="48dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/receive_coins_fragment_push_notifications"
+            android:textColor="@color/primary_text_default_material_light"
+            android:textSize="16sp"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:id="@+id/push_notifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_change_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/action_newpin"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text_default_material_light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/prompt_ko"
+            android:textColor="@color/primary_text_default_material_light"/>
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/prompt_save"
+            android:textColor="@color/blockchain_blue"/>
+
+    </LinearLayout>
+
+</LinearLayout>
